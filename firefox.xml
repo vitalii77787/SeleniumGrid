@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Firefox-Tests" parallel="tests" preserve-order="true"
+       thread-count="4" verbose="5">
+    <test name="Test I">
+        <parameters>
+            <parameter name="browser" value="firefox" />
+            <parameter name="port" value="5555" />
+            <parameter name="ipAddress" value="localhost" />
+        </parameters>
+        <classes>
+            <class name="GooglePageTest" />
+        </classes>
+    </test>
+</suite> <!-- Suite -->
